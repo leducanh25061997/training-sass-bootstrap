@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+$color : #EEE8AA;
+$font-stack : Roboto, sans-serif;
+$color-text: black;
+
+%box{
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+@import 'reset';
+.variales {
+	font-family: $font-stack;
+	background: $color;
+}
+.variales h1{
+	color: $color-text;
+}
+nav {
+	ul {
+		list-style: none;
+		li{
+			display: inline-block;
+			a {
+				display: block;
+	    		padding: 6px 12px;
+	    		text-decoration: none;
+			}		
+		}
+	}	
+}
+
+.extend{
+	@extend %box;
+	background: $color;
+	height: 200px
+}
+
+@mixin animation ( $name , $time , $style , $lop) {
+    animation: $name $time $style $lop; 
+}
+.mixin {
+	width: 100px;
+	height: 100px;
+	@extend %box;
+	background: $color;
+	position: relative;
+	@include animation ( ani , 5s , ease-out ,infinite);
+}
+@keyframes ani {
+    from {left: 0px;}
+    to 	{left: 200px;}
+	}
+
+.extend1{
+	@extend %box;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background: $color;
+	@include animation ( ani1 , 5s , ease-out ,infinite);
+}
+@keyframes ani1 {
+    from {left: 200px;}
+    to 	{left: 0px;}
+	}
