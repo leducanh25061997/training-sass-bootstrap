@@ -1,0 +1,29 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #F8F8FF;
+	position: relative;
+}
+.no-gutters {
+  	margin-right: 0;
+  	margin-left: 0;
+
+  	> .col,
+  	> [class*="col-"] {
+    	padding-right: 0;
+    	padding-left: 0;
+ 	}
+}
+.srollspy{
+	position: relative;
+}
+.srollspy ul.nav-pills {
+    top: 20px;
+    position: fixed;
+  }
+.srollspy  div.col-8 div {
+    height: 500px;
+  }
