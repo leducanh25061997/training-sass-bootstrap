@@ -1,0 +1,10 @@
+.main-header{
+	.header-text{
+		@include font-style(36px,44px);
+		
+		color: #FFFFFF;
+		.text--size{
+			@include font-style(24px,29px);
+		}
+	}
+}

@@ -1,0 +1,53 @@
+.main-text{
+	margin: 0 100px;
+	.text__intro{
+		h1{
+			@include font-style(28px,34px);
+			color: #5A5956;
+		}
+		p{
+			color: #4A4A4A;
+			@include font-style(24px,29px);
+			padding: 0 50px;
+		}
+		.intro__item{
+			margin: 0 auto;
+			width: 600px;
+			margin-top: 20px;
+			h3{
+				@include font-style(42px,50px);
+				color: #5A5956;
+			}
+			p{
+				@include font-style(28px,40px);
+				color: #5A5956;
+			}
+		}
+	}
+	.main-btn{
+		padding-top: 20px;
+		padding-bottom: 45px;
+	}
+}
+@media only all and (min-width: 769px){
+	.main-text{
+		.text__intro{
+			h1{
+				@include font-style(24px,29px);
+			}
+			p{
+				@include font-style(14px,17px);
+				padding: 0 350px;
+			}
+			.intro__item{
+				h3{
+					@include font-style(24px,29px);
+				}
+				p{
+					@include font-style(14px,25px);
+					padding: 0;
+				}
+			}
+		}
+	}
+}

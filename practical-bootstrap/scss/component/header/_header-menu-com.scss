@@ -1,0 +1,24 @@
+.menu-header{
+	a{
+		@include font-style(24px, 29px);
+		color: #FFFFFF;
+		padding: 10px 17px 10px 8px;
+	}
+}
+
+@media only all and (min-width: 769px){
+	.menu-header{
+		margin: 0 100px;
+		.menu__left{
+			a{
+				@include font-style(13px, 16px);
+			}
+		}
+		.menu__right{
+			
+			a{
+				@include font-style(14px, 17px);
+			}
+		}
+	}
+}

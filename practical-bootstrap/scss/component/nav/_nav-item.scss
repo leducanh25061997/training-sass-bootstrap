@@ -1,0 +1,26 @@
+.collapse{
+	ul{
+		li{
+			a{
+				@include font-style(14px, 17px);
+				color: #636363;
+			}
+		}
+	}
+}
+@media only all and (min-width: 769px){
+	.navbar{
+		margin: 0 100px;
+		padding-right: 0;
+		padding-left: 0;
+		.collapse{
+			ul{
+				li{
+					a{
+						margin-left: 40px;
+					}
+				}
+			}
+		}
+	}
+}

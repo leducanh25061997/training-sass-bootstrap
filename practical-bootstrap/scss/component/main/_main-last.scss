@@ -1,0 +1,13 @@
+.main-last{
+	margin: 0 100px;
+	padding: 30px 0;
+	.main-last__item{
+		.item--title{
+			@include font-style(16px,19px);
+			margin-bottom: 15px;
+		}
+		.item--content{
+			@include font-style(13px,25px);
+		}
+	}
+}

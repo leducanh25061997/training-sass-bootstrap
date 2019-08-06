@@ -1,0 +1,81 @@
+.card{
+	color: #FFFFFF;
+	height: 410px;
+	.main-header__left{
+		margin: auto 0;
+	}
+	.main-header__left{
+		h1{
+			@include font-style(30px,37px);
+		}
+		p{
+			@include font-style(16px,19px);
+			padding: 20px 0;
+		}
+	}
+	.main-header__right{
+		background: #127BBE;
+		.header-text{
+			@include font-style(36px,44px);
+			margin-top: 20px;
+			margin-bottom: 10px;
+			.text--size{
+				@include font-style(24px,29px);
+			}
+		}
+		.header-input{
+			background: #FFFFFF;
+			.header-input__import{
+				padding:15px 20px;
+				p{
+					color: #636363;
+					@include font-style(12px,14px);
+				}
+				input{
+					padding: 10px;
+				}
+			}
+			.header-input__link{
+				background: #F1F4F5;
+				margin: 0 20px;
+				color: #636363;
+				.link__item{
+					box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+					p{
+						@include font-style(24px,29px);
+						padding: 21px 0;
+					}
+					span{
+						padding: 21px 0;
+					}
+				}
+			}	
+		}
+	}
+}
+
+@media only all and (min-width: 769px){
+	.card-img-overlay{
+		margin: 0 100px;
+		.main-header__right{
+			.header-text {
+				p{
+					@include font-style(24px,29px);
+				}
+				.text--size p{
+					@include font-style(13px,16px);
+					padding-top: 10px;
+				}
+			}
+			.header-input{
+				.header-input__link{
+					.link__item{
+						p{
+							@include font-style(14px,17px);
+						}
+					}
+				}
+			}
+		}
+	}
+}

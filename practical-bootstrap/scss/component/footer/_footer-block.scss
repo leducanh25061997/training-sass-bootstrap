@@ -1,0 +1,25 @@
+.footer__block{
+	padding: 54px 0;
+	@include font-style(26px,31px);
+	color: #FFFFFF;
+	ul{
+		li{
+			a{
+				color: #FFFFFF;
+			}
+		}
+	}
+}
+
+@media only all and (min-width: 769px){
+	.footer__block{
+		margin:0 100px;
+		padding: 19px 0;
+		a,p {
+			@include font-style(13px,16px);
+		}
+		p{
+			padding-top: 10px;
+		}	
+	}
+}
