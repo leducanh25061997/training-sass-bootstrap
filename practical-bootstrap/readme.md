@@ -1,9 +1,9 @@
-** Tranning bootstrap **
+**Tranning bootstrap**
 
-** Branch **
+**Branch**
 - bootstrap
 
-** Running **
+**Running**
 - Create forder css/
     - sass --watch scss/all.scss:nameforder/namefilen.css
 - Run file : open index.html
