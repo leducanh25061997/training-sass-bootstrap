@@ -1,13 +1,20 @@
-.collapse{
-	ul{
-		li{
-			a{
-				@include font-style(14px, 17px);
-				color: #636363;
+.navbar{
+	button{
+		background: #D3DDE0;
+		border-radius: 3px;
+	}
+	.collapse{
+		ul{
+			li{
+				a{
+					@include font-style(14px, 17px);
+					color: #636363;
+				}
 			}
 		}
 	}
 }
+
 @media only all and (min-width: 769px){
 	.navbar{
 		margin: 0 100px;
@@ -20,6 +27,9 @@
 						margin-left: 40px;
 					}
 				}
+			}
+			.nav-link:hover{
+				color: #127BBE;
 			}
 		}
 	}

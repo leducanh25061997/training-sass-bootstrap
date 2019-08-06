@@ -1,9 +1,11 @@
 .main-text{
-	margin: 0 100px;
+	
 	.text__intro{
 		h1{
 			@include font-style(28px,34px);
 			color: #5A5956;
+			font-weight: bold;
+			margin: 20px 0 10px 0;
 		}
 		p{
 			color: #4A4A4A;
@@ -13,7 +15,7 @@
 		.intro__item{
 			margin: 0 auto;
 			width: 600px;
-			margin-top: 20px;
+			margin-top: 30px;
 			h3{
 				@include font-style(42px,50px);
 				color: #5A5956;
@@ -31,13 +33,18 @@
 }
 @media only all and (min-width: 769px){
 	.main-text{
+		margin: 0 100px;
 		.text__intro{
+			.main-text__title{
+				width: 600px;
+				margin: 0 auto;
+			}
 			h1{
 				@include font-style(24px,29px);
 			}
 			p{
 				@include font-style(14px,17px);
-				padding: 0 350px;
+				padding: 0 50px;
 			}
 			.intro__item{
 				h3{

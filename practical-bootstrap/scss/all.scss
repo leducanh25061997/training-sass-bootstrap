@@ -1,7 +1,8 @@
 @import 'reset/reset';
+@import 'mixin/inclu';
 @import 'layout/header/header-menu';
 @import 'layout/main/main-header';
-@import 'mixin/inclu';
+@import 'component/nav/nav-item';
 @import 'component/header/header-menu-com';
 @import 'component/main/header-input';
 @import 'component/main/main-intro';
@@ -14,3 +15,4 @@
 @import 'component/nav/nav-item';
 @import 'component/main/main-last';
 @import 'layout/main/main-last-layout';
+@import 'font/font-vel'

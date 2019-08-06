@@ -1,6 +1,7 @@
 .btn{
 	box-sizing: border-box;
 	padding: 30px 68px;
+	border-radius:0;
 }
 .btn-main-text{
 	color: #127BBE;
@@ -11,6 +12,7 @@
 	color: #FFFFFF;
 	@include font-style(16px,19px);
 	border: 2px solid #FEFEFE;
+
 }
 
 @media only all and (min-width: 769px){

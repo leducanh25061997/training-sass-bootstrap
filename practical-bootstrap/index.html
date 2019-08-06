@@ -24,9 +24,13 @@
 						</div>
 						<div class="col-md-12 col-lg-6 d-flex justify-content-end pd-reset menu__right">
 							<a href="#" class="d-none d-lg-block">Call Us +6221161782</a>
+							<div class="icon">|</div>
 							<a href="#">Sign In</a>
-							<a href=""><img src="./image/icon-menu.png" alt=""></a>
-							<a href="#">Change Country</a>
+							<div class="icon">|</div>
+							<div class="d-flex">
+								<img class="d-none d-xl-block" src="./image/icon-menu.png" alt="">
+								<a href="#">Change Country</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -34,7 +38,7 @@
 		</header><!-- /header -->
 		<nav class="navbar navbar-expand-lg navbar-light">
   			<a class="navbar-brand" href="#"><img src="./image/logo.png" alt=""></a>
-  			<button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
     			<span class="navbar-toggler-icon"></span>
   			</button>
   			<div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
@@ -68,48 +72,52 @@
 				<div class="card">
  	 				<img src="./image/main.png" class="w-100 h-100 d-none d-lg-block" alt="...">
 					<div class="card-img-overlay d-flex justify-content-between pd-reset">
-    					<div class="main-header__left col-lg-4 d-none d-lg-block pd-reset">
-    						<h1 class="card-title mg-reset">Automotive Solutions</h1>
-    						<p>The timber for CHEP lumber pallets is sourced from tree plantations that must meet rigorous standards and regularly undergo compliance audits.</p>
-    						<div class="main-btn">
-								<button type="button" class="btn btn-main-card">Getting Started</button> 
-							</div>
-    					</div>	
-    					<div class="main-header__right col-md-12 col-lg-5">
-							<div class="header-text">
-								<p>Find Local Customer</p>
-								<div class="text--size">
-									<p>Enter your local area to find customer number</p>
+						
+							<div class="main-header__left col-lg-4 d-none d-lg-block pd-reset">
+    							<h1 class="card-title mg-reset">Automotive Solutions</h1>
+    							<p>The timber for CHEP lumber pallets is sourced from tree plantations that must meet rigorous standards and regularly undergo compliance audits.</p>
+    							<div class="main-btn">
+									<button type="button" class="btn btn-main-card">Getting Started</button> 
 								</div>
-							</div>
-							<div class="header-input">
-								<div class="header-input__import">
-									<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-									<p class="d-none d-lg-block">Press enter to go to the next step</p>
+    						</div>	
+    						<div class="main-header__right col-md-12 col-lg-5">
+								<div class="header-text">
+									<p>Find Local Customer</p>		
+									<div class="text--size">
+										<p>Enter your local area to find customer number</p>
+									</div>
 								</div>
-								<div class="header-input__link">
-									<div class="link__item d-flex justify-content-between">
-										<p>FIND LOCAL CUSTOMER</p>
-	    								<span><i class="fas fa-chevron-right"></i></span>
+								<div class="header-input ">
+									<div class="header-input__import">
+										<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter local area, ex : Greater Jakarta">
+										<p class="d-none d-lg-block">Press enter to go to the next step</p>
 									</div>
-									<div class="link__item d-flex justify-content-between">
-										<p>FIND CUSTOMER BY POSTAL CODE</p>
-								    	<span><i class="fas fa-chevron-right"></i></span>
-									</div>
-									<div class="link__item d-flex justify-content-between">
-										<p>REQUEST SALES OPPORTUNITIES</p>
-								    	<span><i class="fas fa-chevron-right"></i></span>
-									</div>
-								</div>			
-							</div>	
-  						</div>
+									<div class="header-input__link mg-reset">
+										<div class="link__item d-flex justify-content-between">
+											<p>FIND LOCAL CUSTOMER</p>
+	    									<span><i class="fas fa-chevron-right"></i></span>
+										</div>
+										<div class="link__item d-flex justify-content-between">
+											<p>FIND CUSTOMER BY POSTAL CODE</p>
+								    		<span><i class="fas fa-chevron-right"></i></span>
+										</div>
+										<div class="link__item d-flex justify-content-between">
+											<p>REQUEST SALES OPPORTUNITIES</p>
+								    		<span><i class="fas fa-chevron-right"></i></span>
+										</div>
+									</div>			
+								</div>	
+  							
+						</div>		
   					</div>
 				</div>
 			</div>
 			<div class="main-intro-layout">
 				<div class="main-intro text-center">
-					<h1>SERVICE AND PRODUCT</h1>
-					<p>Our industry solutions involve a combination of service, product and systems.</p>
+					<div class="intro__text">
+						<h1 class="mg-reset">SERVICE AND PRODUCT</h1>
+						<p>Our industry solutions involve a combination of service, product and systems.</p>
+					</div>	
 					<div class="intro-product d-flex flex-wrap">
 						<div class="intro-product__item col-lg-4 col-md-6">
 							<img src="./image/icon.png" alt="...">
@@ -171,8 +179,10 @@
 			<div class="main-text-layout">
 				<div class="main-text d-flex flex-column text-center">
 					<div class="text__intro d-flex flex-column text-center">
-						<h1>SERVICE OF EACH STAGE OF THE SUPPLY CHAIN</h1>
-						<p>CHEP helps customers move, store and protect material as the flow through each stage of their supply chain.</p>
+						<div class="main-text__title">
+							<h1 class="mg-reset">SERVICE OF EACH STAGE OF THE SUPPLY CHAIN</h1>
+							<p>CHEP helps customers move, store and protect material as the flow through each stage of their supply chain.</p>
+						</div>
 						<div class="row">
 							<div class="intro__item col-lg-4 col-md-12">
 								<h3>Source</h3>
