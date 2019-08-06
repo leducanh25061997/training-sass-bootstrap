@@ -1,14 +1,13 @@
 .main-intro{
-	width: 1280px;
+	
 	h1{
 		@include font-style(28px,34px);
 	}
 	p{
 		@include font-style(24px,29px);
-		padding: 0 50px;
 	}
 	.intro-product{
-		margin: 60px 50px 40px 50px;
+		margin: 30px 20px 40px 20px;
 		.intro-product__item{
 			margin: 0;
 			border: 1px solid #D3DDE0;
@@ -18,11 +17,12 @@
 			}
 			.item__content{
 				margin-bottom: 20px;
+				padding-left: 20px;
 				h1{
 					color: #2E2F30;
 				}
 				p{
-					padding: 0 20px 20px 20px;
+					padding: 0 0 20px 0;
 					color: #5A5956;
 				}
 				a{

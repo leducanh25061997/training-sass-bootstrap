@@ -9,6 +9,10 @@
 .pd-reset{
   padding:0;
 }
+.pd-lr-reset{
+  padding-left: 0;
+  padding-right:0;
+}
 
 .container-fluid{
   padding:0;
@@ -364,8 +368,4 @@ template {
 
 [hidden] {
   display: none;
-}
-
-.container-fluid{
-  width: 1280px;
 }
